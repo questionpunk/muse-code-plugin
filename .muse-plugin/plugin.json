@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "name": "questionpunk",
+  "displayName": "QuestionPunk",
+  "version": "1.1.1",
+  "description": "Create and review survey drafts, publish requested studies, and analyze QuestionPunk results.",
+  "compat": {
+    "source": "native",
+    "manifestDir": ".muse-plugin"
+  },
+  "capabilities": {
+    "skills": [
+      {
+        "id": "analyze-results",
+        "path": "skills/analyze-results/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "create-study",
+        "path": "skills/create-study/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "manage-study",
+        "path": "skills/manage-study/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "review-study",
+        "path": "skills/review-study/SKILL.md",
+        "enabledDefault": true
+      }
+    ]
+  }
+}
