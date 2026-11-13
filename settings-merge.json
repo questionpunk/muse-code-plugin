@@ -4,6 +4,10 @@
     "questionpunk-cloud": {
       "type": "streamable-http",
       "url": "https://app.questionpunk.com/api/v1"
+    },
+    "questionpunk-start": {
+      "type": "streamable-http",
+      "url": "https://mcp.questionpunk.com/start"
     }
   }
 }
