@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "questionpunk",
   "displayName": "QuestionPunk",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "description": "Create and review survey drafts, publish requested studies, and analyze QuestionPunk results.",
   "compat": {
     "source": "native",
@@ -11,13 +11,33 @@
   "capabilities": {
     "skills": [
       {
+        "id": "ai-interview",
+        "path": "skills/ai-interview/SKILL.md",
+        "enabledDefault": true
+      },
+      {
         "id": "analyze-results",
         "path": "skills/analyze-results/SKILL.md",
         "enabledDefault": true
       },
       {
+        "id": "create-quiz",
+        "path": "skills/create-quiz/SKILL.md",
+        "enabledDefault": true
+      },
+      {
         "id": "create-study",
         "path": "skills/create-study/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "group-forms",
+        "path": "skills/group-forms/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "import-survey",
+        "path": "skills/import-survey/SKILL.md",
         "enabledDefault": true
       },
       {
